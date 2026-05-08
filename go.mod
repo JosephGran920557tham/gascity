@@ -23,3 +23,4 @@ require (
 )
 
 // forked from gastownhall/gascity for personal learning/experimentation
+// TODO: explore replacing zerolog with slog (stdlib) to reduce dependencies
