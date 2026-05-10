@@ -28,3 +28,4 @@ require (
 // TODO: once go-ethereum is upgraded, can likely drop holiman/uint256 as a visible indirect dep
 // NOTE: pinning golang.org/x/crypto and x/sys versions manually - upstream had a transitive mismatch
 //       that caused issues on my machine (darwin/arm64); revisit when go-ethereum bumps these
+// NOTE: godotenv is used for local dev convenience only - prod deployments should use real env vars
