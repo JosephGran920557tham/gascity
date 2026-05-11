@@ -30,3 +30,4 @@ require (
 //       that caused issues on my machine (darwin/arm64); revisit when go-ethereum bumps these
 // NOTE: godotenv is used for local dev convenience only - prod deployments should use real env vars
 // NOTE: bumped to go 1.23 to play with range-over-func (iter package); not needed by upstream
+// TODO: consider adding github.com/stretchr/testify for cleaner test assertions in my experiments
